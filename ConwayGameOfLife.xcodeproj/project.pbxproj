@@ -14,6 +14,8 @@
 		19FD00271E82133B005074B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19FD00261E82133B005074B0 /* Assets.xcassets */; };
 		19FD002A1E82133B005074B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19FD00281E82133B005074B0 /* LaunchScreen.storyboard */; };
 		19FD00351E82133B005074B0 /* ConwayGameOfLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FD00341E82133B005074B0 /* ConwayGameOfLifeTests.m */; };
+		19FD00411E821764005074B0 /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FD00401E821764005074B0 /* BoardView.m */; };
+		19FD00441E8217DD005074B0 /* BoardViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19FD00431E8217DD005074B0 /* BoardViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		19FD00301E82133B005074B0 /* ConwayGameOfLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConwayGameOfLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FD00341E82133B005074B0 /* ConwayGameOfLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConwayGameOfLifeTests.m; sourceTree = "<group>"; };
 		19FD00361E82133B005074B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19FD003F1E821764005074B0 /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardView.h; sourceTree = "<group>"; };
+		19FD00401E821764005074B0 /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardView.m; sourceTree = "<group>"; };
+		19FD00421E8217DD005074B0 /* BoardViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardViewModel.h; sourceTree = "<group>"; };
+		19FD00431E8217DD005074B0 /* BoardViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,10 @@
 				19FD00281E82133B005074B0 /* LaunchScreen.storyboard */,
 				19FD002B1E82133B005074B0 /* Info.plist */,
 				19FD001A1E82133B005074B0 /* Supporting Files */,
+				19FD003F1E821764005074B0 /* BoardView.h */,
+				19FD00401E821764005074B0 /* BoardView.m */,
+				19FD00421E8217DD005074B0 /* BoardViewModel.h */,
+				19FD00431E8217DD005074B0 /* BoardViewModel.m */,
 			);
 			path = ConwayGameOfLife;
 			sourceTree = "<group>";
@@ -216,6 +226,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				19FD00221E82133B005074B0 /* ViewController.m in Sources */,
+				19FD00441E8217DD005074B0 /* BoardViewModel.m in Sources */,
+				19FD00411E821764005074B0 /* BoardView.m in Sources */,
 				19FD001F1E82133B005074B0 /* AppDelegate.m in Sources */,
 				19FD001C1E82133B005074B0 /* main.m in Sources */,
 			);
